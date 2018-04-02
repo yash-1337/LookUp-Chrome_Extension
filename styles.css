@@ -1,0 +1,49 @@
+#definition-popup {
+    background-color: #fefefe;
+    min-width: 200px;
+    min-height: 100px;
+    max-width: 500px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    box-shadow: -1px 2px 5px #ddd;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.part-of-speech {
+    font-style: italic;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.definition {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#error {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#word-title {
+    margin-bottom: 2px;
+    font-size: xx-large;
+}
+
+#word-pronounciation {
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+#play-audio-button {
+    background-color: transparent;
+    border: none;
+}
